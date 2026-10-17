@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "source_root_relative_to_project": "../..",
+  "upstream_bundle": "deximit_bag_task1_2_case_00_stage1_13/deximit_bag_task1_2_case_00_stage1_13",
+  "imports": [
+    {"base": "bundle", "source": "input_bundle", "destination": "data/raw/case00/input_bundle"},
+    {"base": "bundle", "source": "stage1_13", "destination": "data/raw/case00/active", "patterns": ["*.json", "input.mp4", "T_camera_world.npy", "scale_factor.txt", "rgb_frames/*", "native_depth_frames/*", "masks/beige_rigid_bag/masks/*", "masks/beige_rigid_bag/segmentation_provenance.json", "masks/left/masks/*", "masks/right/masks/*", "annotations/*.json", "quality/*.json", "data/case_00_native_rgbd/hand_meshes/*/*.obj", "data/case_00_native_rgbd/hand_poses/*.npy"]},
+    {"base": "bundle", "source": "MANIFEST.json", "destination": "data/raw/provenance/upstream_manifest.json"},
+    {"base": "bundle", "source": "checksums.sha256", "destination": "data/raw/provenance/upstream_checksums.sha256"},
+    {"base": "repository", "source": "bag_mujoco_xml/bag1", "destination": "data/raw/assets/bag1"},
+    {"base": "repository", "source": "bag_mujoco_xml/bag2", "destination": "data/raw/assets/bag2"},
+    {"base": "repository", "source": "bag_mujoco_xml/bag3", "destination": "data/raw/assets/bag3"},
+    {"base": "repository", "source": "Deximit/demo/put_banana_in_bag/label_hand_centric.json", "destination": "data/raw/case00/user_annotations/label_hand_centric.json"},
+    {"base": "repository", "source": "Deximit/demo/put_banana_in_bag/rectify.json", "destination": "data/raw/case00/user_annotations/rectify.json"},
+    {"base": "repository", "source": "deximit_bag_bimanual_test/inputs/task.json", "destination": "data/raw/case00/historical_review/task.json"},
+    {"base": "repository", "source": "deximit_bag_bimanual_test/inputs/grasp_region.json", "destination": "data/raw/case00/historical_review/grasp_region.json"},
+    {"base": "repository", "source": "deximit_bag_bimanual_test/inputs/grasp_region_overlay.png", "destination": "data/raw/case00/historical_review/grasp_region_overlay.png"},
+    {"base": "repository", "source": "10_14_banana_in_bag_gneration/SOURCE_AUDIT_ZH.md", "destination": "data/raw/provenance/asset_identity_audit.md"},
+    {"base": "repository", "source": "10_14_banana_in_bag_gneration/configs/case00.json", "destination": "data/raw/provenance/latest_case00_config.json"}
+  ]
+}

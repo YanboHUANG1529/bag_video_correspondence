@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "case_id": "case00",
+  "primary_asset_id": "bag2",
+  "primary_task": "same_instance_local_material_correspondence",
+  "extension_task": "cross_instance_functional_correspondence",
+  "bootstrap_frames_active": [0, 15, 30, 34, 40, 50, 60, 84, 90, 93, 99, 102],
+  "depth_valid_range_m": [0.1, 2.5],
+  "max_cloud_points_per_frame": 20000,
+  "random_seed": 42,
+  "units": {"positions": "m", "raw_depth_scale_m": 0.001, "pixels": "xy", "face_indices": "zero_based"},
+  "asset_identity": {
+    "bag2": {"status": "same_physical_bag_per_recorded_user_confirmation", "evidence": "data/raw/provenance/asset_identity_audit.md", "dense_material_ground_truth_available": false},
+    "bag1": {"status": "unpaired_asset", "paired_video_available": false},
+    "bag3": {"status": "unpaired_asset", "paired_video_available": false}
+  },
+  "annotation_policy": {"historical_hints_are_ground_truth": false, "overwrite_manual_annotations": false},
+  "evaluation": {"split_unit": "recording_and_asset", "pixel_pck_threshold_image_diagonal_fraction": 0.01, "geodesic_thresholds_m": [0.005, 0.01, 0.02], "status": "planned_not_evaluated"}
+}

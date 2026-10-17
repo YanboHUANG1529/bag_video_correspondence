@@ -1,0 +1,4 @@
+# Data preparation only. No CUDA, model weights or simulator required.
+numpy>=1.23,<3
+Pillow>=9.2,<13
+opencv-python-headless>=4.8,<5

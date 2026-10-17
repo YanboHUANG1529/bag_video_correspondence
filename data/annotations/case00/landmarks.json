@@ -1,0 +1,643 @@
+{
+  "schema_version": 1,
+  "case_id": "case00",
+  "asset_id": "bag2",
+  "source_mesh_sha256": "f7dc6f751796927859c2c9a09d7dffd8c57dfd1b2efcc17bded77ec72c49921f",
+  "review_status": "pending",
+  "pixel_domain": "native_1280x720",
+  "frame_domain": "active",
+  "landmarks": [
+    {
+      "id": "visible_wall_rim_side_a",
+      "part_id": null,
+      "asset_anchor": null,
+      "observations": [
+        {
+          "active_index": 0,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 15,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 30,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 34,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 40,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 50,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 60,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 84,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 90,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 93,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 99,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 102,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "visible_wall_rim_side_b",
+      "part_id": null,
+      "asset_anchor": null,
+      "observations": [
+        {
+          "active_index": 0,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 15,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 30,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 34,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 40,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 50,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 60,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 84,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 90,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 93,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 99,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 102,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "visible_wall_rim_middle",
+      "part_id": null,
+      "asset_anchor": null,
+      "observations": [
+        {
+          "active_index": 0,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 15,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 30,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 34,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 40,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 50,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 60,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 84,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 90,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 93,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 99,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 102,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "visible_handle_attachment_a",
+      "part_id": null,
+      "asset_anchor": null,
+      "observations": [
+        {
+          "active_index": 0,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 15,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 30,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 34,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 40,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 50,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 60,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 84,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 90,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 93,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 99,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 102,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "visible_handle_attachment_b",
+      "part_id": null,
+      "asset_anchor": null,
+      "observations": [
+        {
+          "active_index": 0,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 15,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 30,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 34,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 40,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 50,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 60,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 84,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 90,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 93,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 99,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 102,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "visible_handle_bridge",
+      "part_id": null,
+      "asset_anchor": null,
+      "observations": [
+        {
+          "active_index": 0,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 15,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 30,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 34,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 40,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 50,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 60,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 84,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 90,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 93,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 99,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 102,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "visible_wall_seam_a",
+      "part_id": null,
+      "asset_anchor": null,
+      "observations": [
+        {
+          "active_index": 0,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 15,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 30,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 34,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 40,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 50,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 60,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 84,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 90,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 93,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 99,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 102,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "visible_wall_seam_b",
+      "part_id": null,
+      "asset_anchor": null,
+      "observations": [
+        {
+          "active_index": 0,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 15,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 30,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 34,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 40,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 50,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 60,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 84,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 90,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 93,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 99,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        },
+        {
+          "active_index": 102,
+          "pixel_xy": null,
+          "visibility": "unreviewed",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

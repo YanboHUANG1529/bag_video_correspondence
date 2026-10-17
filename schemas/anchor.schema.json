@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Material anchor on an immutable source mesh",
+  "type": "object",
+  "required": ["source_mesh_sha256", "face_id", "barycentric", "part_id", "surface_side"],
+  "properties": {
+    "source_mesh_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "face_id": {"type": "integer", "minimum": 0},
+    "barycentric": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "number", "minimum": 0, "maximum": 1}},
+    "part_id": {"type": "string", "minLength": 1},
+    "surface_side": {"enum": ["inner", "outer", "unknown"]},
+    "chart_id": {"type": ["string", "null"]},
+    "chart_uv": {"type": ["array", "null"], "minItems": 2, "maxItems": 2, "items": {"type": "number"}},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+  },
+  "$comment": "Validate barycentric sum=1 and mesh hash/face range in code. Unknown surface side must be reviewed before grasp execution."
+}

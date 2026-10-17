@@ -1,0 +1,26 @@
+# --- Python ---
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# --- 数据体：不进版本库，用 manifest 的 SHA-256 校验、用归档包备份 ---
+# 原始输入（98 MB）
+data/raw/
+# 由 bootstrap.py 重建的派生数据（30 MB）
+data/derived/
+# 构建产物（预览图、报告）
+outputs/
+# 归档包与权重、外部仓库
+*.zip
+weights/
+external/
+
+# --- 系统 / 编辑器噪声 ---
+Thumbs.db
+desktop.ini
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.tmp

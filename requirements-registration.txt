@@ -1,0 +1,5 @@
+# Optional: install when implementing the registration baseline.
+-r requirements-bootstrap.txt
+scipy>=1.10,<2
+trimesh>=4.4,<5
+rtree>=1.2,<2

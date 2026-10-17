@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "asset_id": "bag1",
+  "source_mesh_sha256": "f9cda4d80c6c4c2c0bbbe6264a7b7a7a45326ad36aaf4bb6dece0839e23112cc",
+  "review_status": "pending",
+  "face_index_domain": "raw_obj_zero_based",
+  "parts": [],
+  "material_landmarks": [],
+  "chart_definitions": [],
+  "boundary_candidates_file": "data/derived/assets/bag1/mesh_audit.json"
+}

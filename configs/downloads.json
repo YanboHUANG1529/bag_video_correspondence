@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-18",
+  "bootstrap_requires_external_model": false,
+  "items": [
+    {"id": "bootstrap_python", "stage": "P0", "kind": "packages", "status": "available_in_current_environment", "installation": "requirements-bootstrap.txt"},
+    {"id": "blender", "stage": "P1", "kind": "application", "status": "installation_not_checked", "url": "https://www.blender.org/download/"},
+    {"id": "registration_python", "stage": "P2", "kind": "packages", "status": "not_installed_by_initialization", "installation": "requirements-registration.txt"},
+    {"id": "cotracker3", "stage": "P3", "kind": "code_and_weights", "status": "not_downloaded_by_initialization", "repository": "https://github.com/facebookresearch/co-tracker", "code_destination": "external/co-tracker", "weights_destination": "weights/", "checkpoint_instructions": "Official README Quick start; pin code and hash downloaded weights before comparison"},
+    {"id": "spatrackerv2", "stage": "P3_alternative", "kind": "code_and_weights", "status": "source_snapshot_present_weights_not_found_in_source_tree_global_cache_unchecked", "repository_source_relative_to_original_root": "Deximit/third_party/SpaTrackerV2", "repository": "https://github.com/henry123-boy/SpaTrackerV2", "weights_destination": "weights/"},
+    {"id": "unigarmentmanip", "stage": "P4", "kind": "research_code", "status": "not_downloaded_by_initialization", "repository": "https://github.com/luhr2003/UniGarmentManip", "code_destination": "external/UniGarmentManip", "bag_training_required": true},
+    {"id": "dexgarmentlab_gam", "stage": "P4", "kind": "research_code", "status": "not_downloaded_by_initialization", "repository": "https://github.com/wayrise/DexGarmentLab", "code_destination": "external/DexGarmentLab", "bag_training_required": true},
+    {"id": "garmentnets", "stage": "optional", "kind": "reference_dataset_and_code", "status": "not_downloaded_by_initialization", "repository": "https://github.com/real-stanford/garmentnets", "dataset_entry": "https://garmentnets.cs.columbia.edu/", "required_for_first_baseline": false},
+    {"id": "garmenttracking", "stage": "optional", "kind": "reference_dataset_and_code", "status": "not_downloaded_by_initialization", "repository": "https://github.com/xiaoxiaoxh/GarmentTracking", "required_for_first_baseline": false}
+  ]
+}

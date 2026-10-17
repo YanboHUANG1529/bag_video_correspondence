@@ -1,0 +1,30 @@
+version: "0.4.0"
+project:
+  title: "袋子视频与数字资产的材料对应探索"
+  short_name: "bag_video_correspondence"
+  root: "."
+target_venue:
+  name: ""
+  year: ""
+  mode: "exploration"
+stage:
+  current: "data_bootstrap"
+  gate: "manual_annotation_pending"
+  updated_at: "2026-10-18"
+artifacts:
+  plan: "docs/PLAN_ZH.md"
+  technical_route: "docs/TECHNICAL_ROUTE_ZH.md"
+  data_preparation: "docs/DATA_PREPARATION_ZH.md"
+  annotation_guide: "docs/ANNOTATION_GUIDE_ZH.md"
+  references: "docs/REFERENCES_ZH.md"
+  data_manifest: "data/manifests/local_data_manifest.json"
+  validation: "outputs/bootstrap/validation_report.json"
+claims: []
+experiments: []
+reviews: []
+revision_ledger:
+  path: ""
+  status: "not_applicable"
+submission_checks:
+  path: ""
+  status: "not_applicable"
